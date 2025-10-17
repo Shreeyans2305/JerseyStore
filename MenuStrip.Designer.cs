@@ -91,34 +91,34 @@
             this.footballToolStripMenuItem,
             this.basketballToolStripMenuItem});
             this.sportsToolStripMenuItem.Name = "sportsToolStripMenuItem";
-            this.sportsToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.sportsToolStripMenuItem.Size = new System.Drawing.Size(173, 34);
             this.sportsToolStripMenuItem.Text = "Sports";
             // 
             // f1ToolStripMenuItem
             // 
             this.f1ToolStripMenuItem.Name = "f1ToolStripMenuItem";
-            this.f1ToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.f1ToolStripMenuItem.Size = new System.Drawing.Size(202, 34);
             this.f1ToolStripMenuItem.Text = "F1";
             this.f1ToolStripMenuItem.Click += new System.EventHandler(this.f1ToolStripMenuItem_Click);
             // 
             // cricketToolStripMenuItem
             // 
             this.cricketToolStripMenuItem.Name = "cricketToolStripMenuItem";
-            this.cricketToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.cricketToolStripMenuItem.Size = new System.Drawing.Size(202, 34);
             this.cricketToolStripMenuItem.Text = "Cricket";
             this.cricketToolStripMenuItem.Click += new System.EventHandler(this.cricketToolStripMenuItem_Click);
             // 
             // footballToolStripMenuItem
             // 
             this.footballToolStripMenuItem.Name = "footballToolStripMenuItem";
-            this.footballToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.footballToolStripMenuItem.Size = new System.Drawing.Size(202, 34);
             this.footballToolStripMenuItem.Text = "Football";
             this.footballToolStripMenuItem.Click += new System.EventHandler(this.footballToolStripMenuItem_Click);
             // 
             // basketballToolStripMenuItem
             // 
             this.basketballToolStripMenuItem.Name = "basketballToolStripMenuItem";
-            this.basketballToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.basketballToolStripMenuItem.Size = new System.Drawing.Size(202, 34);
             this.basketballToolStripMenuItem.Text = "Basketball";
             this.basketballToolStripMenuItem.Click += new System.EventHandler(this.basketballToolStripMenuItem_Click);
             // 
@@ -130,34 +130,34 @@
             this.pumaToolStripMenuItem,
             this.newBalanceToolStripMenuItem});
             this.brandsToolStripMenuItem.Name = "brandsToolStripMenuItem";
-            this.brandsToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.brandsToolStripMenuItem.Size = new System.Drawing.Size(173, 34);
             this.brandsToolStripMenuItem.Text = "Brands";
             // 
             // nikeToolStripMenuItem
             // 
             this.nikeToolStripMenuItem.Name = "nikeToolStripMenuItem";
-            this.nikeToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.nikeToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
             this.nikeToolStripMenuItem.Text = "Nike";
             this.nikeToolStripMenuItem.Click += new System.EventHandler(this.nikeToolStripMenuItem_Click);
             // 
             // adidasToolStripMenuItem
             // 
             this.adidasToolStripMenuItem.Name = "adidasToolStripMenuItem";
-            this.adidasToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.adidasToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
             this.adidasToolStripMenuItem.Text = "Adidas";
             this.adidasToolStripMenuItem.Click += new System.EventHandler(this.adidasToolStripMenuItem_Click);
             // 
             // pumaToolStripMenuItem
             // 
             this.pumaToolStripMenuItem.Name = "pumaToolStripMenuItem";
-            this.pumaToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.pumaToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
             this.pumaToolStripMenuItem.Text = "Puma";
             this.pumaToolStripMenuItem.Click += new System.EventHandler(this.pumaToolStripMenuItem_Click);
             // 
             // newBalanceToolStripMenuItem
             // 
             this.newBalanceToolStripMenuItem.Name = "newBalanceToolStripMenuItem";
-            this.newBalanceToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.newBalanceToolStripMenuItem.Size = new System.Drawing.Size(224, 34);
             this.newBalanceToolStripMenuItem.Text = "New Balance";
             this.newBalanceToolStripMenuItem.Click += new System.EventHandler(this.newBalanceToolStripMenuItem_Click);
             // 
@@ -175,12 +175,14 @@
             this.viewCartToolStripMenuItem.Name = "viewCartToolStripMenuItem";
             this.viewCartToolStripMenuItem.Size = new System.Drawing.Size(196, 34);
             this.viewCartToolStripMenuItem.Text = "View Cart";
+            this.viewCartToolStripMenuItem.Click += new System.EventHandler(this.viewCartToolStripMenuItem_Click);
             // 
             // checkoutToolStripMenuItem
             // 
             this.checkoutToolStripMenuItem.Name = "checkoutToolStripMenuItem";
             this.checkoutToolStripMenuItem.Size = new System.Drawing.Size(196, 34);
             this.checkoutToolStripMenuItem.Text = "Checkout";
+            this.checkoutToolStripMenuItem.Click += new System.EventHandler(this.checkoutToolStripMenuItem_Click);
             // 
             // accountToolStripMenuItem
             // 
@@ -196,6 +198,7 @@
             this.viewOrderHistoryToolStripMenuItem.Name = "viewOrderHistoryToolStripMenuItem";
             this.viewOrderHistoryToolStripMenuItem.Size = new System.Drawing.Size(277, 34);
             this.viewOrderHistoryToolStripMenuItem.Text = "View Order History";
+            this.viewOrderHistoryToolStripMenuItem.Click += new System.EventHandler(this.viewOrderHistoryToolStripMenuItem_Click);
             // 
             // signOutToolStripMenuItem
             // 

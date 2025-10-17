@@ -32,14 +32,14 @@ namespace JerseyStore
             }
 
             // Inline connection string. Update Data Source / Initial Catalog / authentication as appropriate for your environment.
-            string connStr = "Server=.;Initial Catalog=db0;Integrated Security=True;";
+            string connStr = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\shree\\source\\repos\\JerseyStore\\Database1.mdf;Integrated Security=True";
 
             try
             {
                 using (SqlConnection conn = new SqlConnection(connStr))
                 using (SqlCommand cmd = conn.CreateCommand())
                 {
-                    cmd.CommandText = "SELECT COUNT(1) FROM dbo.Table1 WHERE username = @u AND password = @p";
+                    cmd.CommandText = "SELECT COUNT(1) FROM dbo.Table3 WHERE username = @u AND password = @p";
                     cmd.Parameters.Add(new SqlParameter("@u", SqlDbType.NVarChar, 100) { Value = user });
                     cmd.Parameters.Add(new SqlParameter("@p", SqlDbType.NVarChar, 100) { Value = pass });
 
@@ -48,7 +48,8 @@ namespace JerseyStore
 
                     if (matches == 1)
                     {
-                        // login successful
+                        // login successful - set global session and open Form4
+                        Session.SignIn(user);
                         Form4 f = new Form4();
                         this.Hide();
                         f.Show();

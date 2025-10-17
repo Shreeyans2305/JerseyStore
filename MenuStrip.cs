@@ -17,6 +17,69 @@ namespace JerseyStore
             InitializeComponent();
         }
 
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+
+            try
+            {
+                // Initialize account menu text
+                UpdateAccountText();
+
+                // Subscribe to session changes (only at runtime)
+                if (!DesignMode)
+                    Session.UsernameChanged += Session_UsernameChanged;
+            }
+            catch
+            {
+                // ignore
+            }
+        }
+
+        protected override void OnHandleDestroyed(EventArgs e)
+        {
+            try
+            {
+                Session.UsernameChanged -= Session_UsernameChanged;
+            }
+            catch
+            {
+                // ignore
+            }
+
+            base.OnHandleDestroyed(e);
+        }
+
+        private void Session_UsernameChanged(object sender, EventArgs e)
+        {
+            if (InvokeRequired)
+            {
+                BeginInvoke((Action)UpdateAccountText);
+            }
+            else
+            {
+                UpdateAccountText();
+            }
+        }
+
+        private void UpdateAccountText()
+        {
+            try
+            {
+                if (accountToolStripMenuItem == null)
+                    return;
+
+                if (Session.IsSignedIn)
+                    accountToolStripMenuItem.Text = $"Account ({Session.LoggedInUsername})";
+                else
+                    accountToolStripMenuItem.Text = "Account";
+            }
+            catch
+            {
+                // ignore
+            }
+        }
+
         private void accToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -24,8 +87,22 @@ namespace JerseyStore
 
         private void signOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            try
+            {
+                // sign out from global session
+                Session.SignOut();
+            }
+            catch
+            {
+                // ignore
+            }
+
+            // navigate to main form (login / start)
             Form1 f = new Form1();
-            this.Hide();
+            if (this.Parent != null)
+                this.Parent.Hide();
+            else
+                this.Hide();
             f.Show();
 
         }
@@ -33,7 +110,7 @@ namespace JerseyStore
         private void homeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form1 f = new Form1();
-            this.Hide();
+            Parent.Hide();
             f.Show();
         }
 
@@ -89,6 +166,27 @@ namespace JerseyStore
         private void basketballToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form13 f = new Form13();
+            Parent.Hide();
+            f.Show();
+        }
+
+        private void viewCartToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form14 f = new Form14();
+            Parent.Hide();
+            f.Show();
+        }
+
+        private void checkoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form15 f = new Form15();
+            Parent.Hide();
+            f.Show();
+        }
+
+        private void viewOrderHistoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form16 f = new Form16();
             Parent.Hide();
             f.Show();
         }
