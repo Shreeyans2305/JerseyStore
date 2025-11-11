@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -125,7 +124,12 @@
             this.productCard4.BackColor = System.Drawing.Color.Transparent;
             this.productCard4.Location = new System.Drawing.Point(726, 142);
             this.productCard4.Name = "productCard4";
-            this.productCard4.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard4.ProductImage")));
+            this.productCard4.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.productCard4.ProductImage = global::JerseyStore.Properties.Resources.IMG_5745;
             this.productCard4.ProductTitle = "LA Lakers Match Fit";
             this.productCard4.Quantity = 1;
             this.productCard4.Size = new System.Drawing.Size(251, 296);
@@ -136,7 +140,12 @@
             this.productCard3.BackColor = System.Drawing.Color.Transparent;
             this.productCard3.Location = new System.Drawing.Point(483, 142);
             this.productCard3.Name = "productCard3";
-            this.productCard3.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard3.ProductImage")));
+            this.productCard3.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.productCard3.ProductImage = global::JerseyStore.Properties.Resources.IMG_5748;
             this.productCard3.ProductTitle = "Liverpool FC \'25 Long ";
             this.productCard3.Quantity = 1;
             this.productCard3.Size = new System.Drawing.Size(251, 296);
@@ -147,7 +156,12 @@
             this.productCard2.BackColor = System.Drawing.Color.Transparent;
             this.productCard2.Location = new System.Drawing.Point(238, 142);
             this.productCard2.Name = "productCard2";
-            this.productCard2.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard2.ProductImage")));
+            this.productCard2.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.productCard2.ProductImage = global::JerseyStore.Properties.Resources.IMG_5747;
             this.productCard2.ProductTitle = "Indian Cricket Team";
             this.productCard2.Quantity = 1;
             this.productCard2.Size = new System.Drawing.Size(251, 296);
@@ -158,7 +172,12 @@
             this.productCard1.BackColor = System.Drawing.Color.Transparent;
             this.productCard1.Location = new System.Drawing.Point(-6, 141);
             this.productCard1.Name = "productCard1";
-            this.productCard1.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard1.ProductImage")));
+            this.productCard1.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.productCard1.ProductImage = global::JerseyStore.Properties.Resources.IMG_5742;
             this.productCard1.ProductTitle = "Mercedes \'25 Tee";
             this.productCard1.Quantity = 1;
             this.productCard1.Size = new System.Drawing.Size(251, 296);
@@ -191,7 +210,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::JerseyStore.Properties.Resources.IMG_5751;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1004, 508);
             this.Controls.Add(this.label6);

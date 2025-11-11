@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form12));
             this.menuStrip1 = new JerseyStore.MenuStrip();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -78,7 +77,12 @@
             this.productCard3.BackColor = System.Drawing.Color.Transparent;
             this.productCard3.Location = new System.Drawing.Point(12, 156);
             this.productCard3.Name = "productCard3";
-            this.productCard3.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard3.ProductImage")));
+            this.productCard3.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.productCard3.ProductImage = global::JerseyStore.Properties.Resources.IMG_5786;
             this.productCard3.ProductTitle = "Real Madrid \'25";
             this.productCard3.Quantity = 1;
             this.productCard3.Size = new System.Drawing.Size(251, 296);
@@ -89,7 +93,12 @@
             this.productCard1.BackColor = System.Drawing.Color.Transparent;
             this.productCard1.Location = new System.Drawing.Point(289, 156);
             this.productCard1.Name = "productCard1";
-            this.productCard1.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard1.ProductImage")));
+            this.productCard1.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.productCard1.ProductImage = global::JerseyStore.Properties.Resources.IMG_5788;
             this.productCard1.ProductTitle = "Portugal Away \'25";
             this.productCard1.Quantity = 1;
             this.productCard1.Size = new System.Drawing.Size(251, 296);
@@ -100,7 +109,12 @@
             this.productCard2.BackColor = System.Drawing.Color.Transparent;
             this.productCard2.Location = new System.Drawing.Point(559, 156);
             this.productCard2.Name = "productCard2";
-            this.productCard2.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard2.ProductImage")));
+            this.productCard2.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.productCard2.ProductImage = global::JerseyStore.Properties.Resources.IMG_5787;
             this.productCard2.ProductTitle = "Argentina \'25";
             this.productCard2.Quantity = 1;
             this.productCard2.Size = new System.Drawing.Size(251, 296);
@@ -111,7 +125,12 @@
             this.productCard4.BackColor = System.Drawing.Color.Transparent;
             this.productCard4.Location = new System.Drawing.Point(816, 156);
             this.productCard4.Name = "productCard4";
-            this.productCard4.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard4.ProductImage")));
+            this.productCard4.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.productCard4.ProductImage = global::JerseyStore.Properties.Resources.IMG_5785;
             this.productCard4.ProductTitle = "Barcelona \'25";
             this.productCard4.Quantity = 1;
             this.productCard4.Size = new System.Drawing.Size(251, 296);
@@ -155,6 +174,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::JerseyStore.Properties.Resources.IMG_5751;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1075, 514);
             this.Controls.Add(this.circleButton2);
             this.Controls.Add(this.circleButton1);

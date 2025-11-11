@@ -51,8 +51,11 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>FS-removebg-preview.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
@@ -196,6 +199,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RoundedButton.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -259,13 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -290,6 +294,57 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="FS-removebg-preview.ico" />
+    <None Include="Resources\FS-removebg-preview.ico" />
+    <None Include="Resources\IMG_5763 %281%29.JPG" />
+    <None Include="Resources\FS-removebg-preview.png" />
+    <None Include="Resources\IMG_5742.jpeg" />
+    <None Include="Resources\IMG_5744.jpeg" />
+    <None Include="Resources\IMG_5745.jpeg" />
+    <None Include="Resources\IMG_5747.jpg" />
+    <None Include="Resources\IMG_5748.jpeg" />
+    <None Include="Resources\IMG_5749.JPG" />
+    <None Include="Resources\IMG_5752.jpeg" />
+    <None Include="Resources\IMG_5751.jpeg" />
+    <None Include="Resources\IMG_5750.jpeg" />
+    <None Include="Resources\IMG_5755.jpeg" />
+    <None Include="Resources\IMG_5754.jpeg" />
+    <None Include="Resources\IMG_5753.jpeg" />
+    <None Include="Resources\IMG_5757.jpg" />
+    <None Include="Resources\IMG_5762.JPG" />
+    <None Include="Resources\IMG_5761.JPG" />
+    <None Include="Resources\IMG_5764.JPG" />
+    <None Include="Resources\IMG_5763.JPG" />
+    <None Include="Resources\IMG_5791.jpeg" />
+    <None Include="Resources\IMG_5765.JPG" />
+    <None Include="Resources\IMG_5766.JPG" />
+    <None Include="Resources\IMG_5767.JPG" />
+    <None Include="Resources\IMG_5768.JPG" />
+    <None Include="Resources\IMG_5770.JPG" />
+    <None Include="Resources\IMG_5771.JPG" />
+    <None Include="Resources\IMG_5760.JPG" />
+    <None Include="Resources\IMG_5758.JPG" />
+    <None Include="Resources\IMG_5759.JPG" />
+    <None Include="Resources\IMG_5774.JPG" />
+    <None Include="Resources\IMG_5773.JPG" />
+    <None Include="Resources\IMG_5772.JPG" />
+    <None Include="Resources\IMG_5775.JPG" />
+    <None Include="Resources\IMG_5782.JPG" />
+    <None Include="Resources\IMG_5784.jpg" />
+    <None Include="Resources\IMG_5780.JPG" />
+    <None Include="Resources\IMG_5783.JPG" />
+    <None Include="Resources\IMG_5785.JPG" />
+    <None Include="Resources\IMG_5787.JPG" />
+    <None Include="Resources\IMG_5788.JPG" />
+    <None Include="Resources\IMG_5786.JPG" />
+    <None Include="Resources\IMG_5777.JPG" />
+    <None Include="Resources\IMG_5779.JPG" />
+    <None Include="Resources\IMG_5776.JPG" />
+    <None Include="Resources\IMG_5796.jpeg" />
+    <None Include="Resources\IMG_5794.jpeg" />
+    <None Include="Resources\IMG_57921.jpeg" />
+    <None Include="Resources\IMG_5769.JPG" />
+    <None Include="Resources\Lets go!.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

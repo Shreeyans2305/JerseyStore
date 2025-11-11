@@ -77,7 +77,11 @@
             this.productCard3.BackColor = System.Drawing.Color.Transparent;
             this.productCard3.Location = new System.Drawing.Point(-3, 148);
             this.productCard3.Name = "productCard3";
-            this.productCard3.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard3.ProductImage")));
+            this.productCard3.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.productCard3.ProductTitle = "Dallas \'25 Jersey";
             this.productCard3.Quantity = 1;
             this.productCard3.Size = new System.Drawing.Size(251, 296);
@@ -88,7 +92,11 @@
             this.productCard1.BackColor = System.Drawing.Color.Transparent;
             this.productCard1.Location = new System.Drawing.Point(254, 148);
             this.productCard1.Name = "productCard1";
-            this.productCard1.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard1.ProductImage")));
+            this.productCard1.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.productCard1.ProductTitle = "Charlotte \'25 Jersey";
             this.productCard1.Quantity = 1;
             this.productCard1.Size = new System.Drawing.Size(251, 296);
@@ -99,7 +107,11 @@
             this.productCard2.BackColor = System.Drawing.Color.Transparent;
             this.productCard2.Location = new System.Drawing.Point(511, 148);
             this.productCard2.Name = "productCard2";
-            this.productCard2.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard2.ProductImage")));
+            this.productCard2.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.productCard2.ProductTitle = "Mavericks \'25 Jersey";
             this.productCard2.Quantity = 1;
             this.productCard2.Size = new System.Drawing.Size(251, 296);
@@ -110,6 +122,11 @@
             this.productCard4.BackColor = System.Drawing.Color.Transparent;
             this.productCard4.Location = new System.Drawing.Point(758, 148);
             this.productCard4.Name = "productCard4";
+            this.productCard4.Price = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
             this.productCard4.ProductImage = ((System.Drawing.Image)(resources.GetObject("productCard4.ProductImage")));
             this.productCard4.ProductTitle = "Lakers \'25 Jersey";
             this.productCard4.Quantity = 1;
@@ -137,6 +154,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1002, 508);
             this.Controls.Add(this.circleButton1);
             this.Controls.Add(this.productCard4);
