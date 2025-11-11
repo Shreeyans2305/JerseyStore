@@ -122,6 +122,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::JerseyStore.Properties.Resources.IMG_57921;
             this.pictureBox1.Location = new System.Drawing.Point(28, 187);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(204, 190);
@@ -141,6 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::JerseyStore.Properties.Resources.IMG_5796;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(839, 483);
             this.Controls.Add(this.menuStrip1);
