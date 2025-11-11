@@ -11,19 +11,19 @@ Frontier Sports is a Windows Forms application built using the **C#.NET
 Framework**. The app simulates a fully interactive online sports jersey
 store with:
 
--   Login, account creation, and user session tracking\
--   Shopping by **brand** or **sport**\
--   A cart system that remembers items per user\
--   Order history and payment display pages\
--   A database-backed inventory and user-order system\
+-   Login, account creation, and user session tracking
+-   Shopping by **brand** or **sport**
+-   A cart system that remembers items per user
+-   Order history and payment display pages
+-   A database-backed inventory and user-order system
 -   Image-rich interface with attractive UI design
 
 # ✅ Features
 
 ### 🖼️ Attractive UI & Homepage
 
--   Clean, modern front page\
--   Login system with session handling\
+-   Clean, modern front page
+-   Login system with session handling
 -   Option to create a new user account
 
 ### 🛍️ Shop by Brand
@@ -38,25 +38,25 @@ Explore collections from: - **Formula 1 (F1)** - **Cricket** -
 
 ### 🛒 Cart System (Session-Based & Persistent)
 
--   Add items to your cart\
--   Add **multiple quantities** of the same jersey\
--   Cart is tied to each individual user\
+-   Add items to your cart
+-   Add **multiple quantities** of the same jersey
+-   Cart is tied to each individual user
 -   Cart persists across sessions
 
 ### 💳 Payments Page (View Only)
 
--   Shows a mock payment summary\
--   Does **NOT** process actual payments\
+-   Shows a mock payment summary
+-   Does **NOT** process actual payments
 -   Used for order review only
 
 ### 📦 Order History
 
--   A dedicated page showing user's previous and placed orders\
+-   A dedicated page showing user's previous and placed orders
 -   All order history is fetched from the SQL database
 
 ### 🖼️ Full Image Support
 
--   Every jersey in the store is displayed with its image\
+-   Every jersey in the store is displayed with its image
 -   All images included within the project assets
 
 # 👨‍💻 For Developers --- How to Run & Modify the Project
@@ -112,9 +112,9 @@ string connectionString = @"Data Source=YOUR_SERVER_NAME;Initial Catalog=YOUR_DA
 
 ## ✅ 4. Run the Project
 
--   Build the application\
--   Log in or create a new account\
--   Explore the UI and shop around\
+-   Build the application
+-   Log in or create a new account
+-   Explore the UI and shop around
 -   Test cart, orders, and navigation
 
 # 🙌 Final Note
